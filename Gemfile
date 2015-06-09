@@ -1,7 +1,9 @@
-source :rubygems
 
-ruby '1.9.3'
 
 gem 'nokogiri'
 gem 'fakeweb'
-gem 'debugger'
+gem 'rspec'
+gem 'activemodel'
+gem 'autotest'
+gem 'simplecov', :require => false, :group => :test
+gem 'timecop'
